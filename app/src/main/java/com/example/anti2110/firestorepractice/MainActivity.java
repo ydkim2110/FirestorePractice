@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
 //        note.put(KEY_TITLE, title);
 //        note.put(KEY_DESCRIPTION, description);
 
-        Note note = new Note(title, description);
+        Note note = new Note(title, description, 0);
         noteRef.set(note)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
